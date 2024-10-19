@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Alegreya Sans";
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.header{
+    background-color: rgb(238, 235, 235);
+    height: 30vh;
+    position: relative;
+}
+.layer h1{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    font-family: "Alegreya";
+    font-size: 32px;
+}
+.layer .one{
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    font-size: 15px;
+    font-family: "Alegreya Sans";
+}
+.one1{
+    text-decoration: none;
+    color: rgb(117, 113, 113,0.7);
+}
+.one2{
+    text-decoration: none;
+    color: black;
+}
+.one1:hover{
+    color: rgb(161, 126, 72);
+}
+.main-bar{
+    background-color: white;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.logo .image2{
+    height: 80px;
+    padding-left: 20px;
+}
+.main{
+    list-style: none;
+    width: 50%;
+    padding-left: 10px;
+    display:flex;
+    justify-content:space-evenly;
+}
+li a{
+    text-decoration: none;
+    color: rgba(44, 42, 42, 0.6);
+    font-family: "Alegreya";
+}
+.main > li{
+    padding-left: 15px;
+}
+.active{
+    color: black;
+    /*border-top : 3px solid #8e7754;
+    padding-top: 2px;*/
+    font-family: "Alegreya";
+}
+.secondary{
+    list-style: none;
+    background-color: rgb(94, 74, 53);
+    margin-top: 20px;
+    display: none;
+    
+}
+.chgcol{
+    color: rgb(8, 8, 8);
+}
+.main> li>a:hover{
+    color: rgb(20, 20, 20);
+}
+.secondary  a:hover {
+   background-color: rgb(129, 101, 78);
+   color: white;
+}
+.card-body a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+.card-body p{
+    color: rgb(202, 201, 201);
+}
+.card-body p a{
+    color:rgb(202, 197, 197) ;
+}
+.card-body .card-text{
+    color: rgb(99, 93, 93);
+}
+.layer1{
+    display: flex;
+    padding-top: 48px;
+    margin: 0 100px;
+}
+.col{
+    width: 40%;
+}
+.content2{
+    padding-right: 20px;
+}
+form{
+    display: flex;
+    border-bottom:  1px solid rgb(184, 180, 180);
+    padding-bottom: 20px;
+}
+.search,.search-button{
+    border: 1px solid rgb(184, 180, 180);
+    color: rgb(224, 224, 221);
+    background-color: white;
+}
+.search{
+    border-right: none;
+}
+.search-button{
+    border-left: none;
+}
+ul{
+    list-style-type: none;
+}
+li >i{
+    color: #c2bebe;
+    font-size: 10px;
+}
+li{
+    padding-bottom: 15px;
+}
+.comment{
+    color: rgb(168, 166, 166);
+}
+#categories-2,#recent-comments-2,#recent-posts-2{
+    border-bottom:  1px solid rgb(184, 180, 180);
+    padding-top:25px;
+}
+#meta-2{
+    padding-top: 25px;
+}
+.widget-title{
+    margin-bottom: 30px;
+}
+.content2 a:hover ,.more:hover{
+    color: rgb(141, 98, 42);
+}
+.content3{
+    background-color: rgb(59, 34, 14);
+    color: white;
+    padding: 15px;
+    position: relative;
+}
+.content3:hover{
+    background-color: rgb(24, 22, 22);
+    cursor: pointer;
+}
+.content3 i{
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+.footer1 {
+    background-color: rgb(71, 67, 63);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 60px;
+}
+.part1,.part2,.part3,.part4{
+    width: 25%;
+    margin-right:20px ;
+}
+.footer1 .h2{
+    padding:40px;
+}
+.part2>ul,.part3>ul,.part4>ul{
+    list-style: none;
+}
+.bod{
+    border-bottom: 0.5px solid rgb(221, 219, 219,0.4);
+    padding: 10px 10px 10px 0;
+}
+.part1>h5,.part2>h5,.part3>h5,.part4>h5{
+    margin-bottom: 30px;
+    color: white;
+}
+.part1 >p{
+    color:rgb(148, 142, 142) ;
+}
+.footer1 ul li{
+    color:  rgb(148, 142, 142); 
+}
+.footer2{
+    background-color: rgb(51, 49, 46);
+    padding-top: 60px;
+    padding-left: 500px;
+    padding-bottom: 100px;
+}
+.footer2 > ul {
+    list-style: none;
+    display: flex;
+    padding-left: 80px;
+}
+.footer2 > ul>li{
+    padding-right:5px ;
+}
+.footer2 p{
+    padding: 20px 0;
+    padding-left: 80px;
+    color: rgb(148, 142, 142);
+}
+.footer2 .effect{
+    color: rgb(255, 255, 255 ,0.5);
+    width: 30px;
+    height: 30px;
+    padding-top:5px;
+    padding-left: 4px;
+    align-items: center;
+    margin-right: 3px;
+    border: 1px solid rgb(71, 66, 60);
+    border-radius: 50% ;
+    opacity: 0.8;
+}
+.but1:hover{
+    color: rgb(255, 255, 255 );
+    width: 30px;
+    height: 30px;
+    padding-top:5px;
+    padding-left: 4px;
+    align-items: center;
+    margin-right: 3px;
+    border: 1px solid rgb(9, 61, 158);
+    background-color: rgba(17, 56, 163, 0.925);
+    border-radius: 50% ;
+    opacity: 0.8;
+}
+.but2:hover{
+    color: rgb(255, 255, 255 );
+    width: 30px;
+    height: 30px;
+    padding-top:5px;
+    padding-left: 4px;
+    align-items: center;
+    margin-right: 3px;
+    border: 1px solid rgb(221, 12, 12);
+    background-color: rgba(190, 17, 17, 0.925);
+    border-radius: 50% ;
+    opacity: 0.8;
+}
+.but3:hover{
+    color: rgb(255, 255, 255 );
+    width: 30px;
+    height: 30px;
+    padding-top:5px;
+    padding-left: 4px;
+    align-items: center;
+    margin-right: 3px;
+    border: 1px solid rgb(49, 90, 167);
+    background-color: rgba(54, 82, 160, 0.925);
+    border-radius: 50% ;
+    opacity: 0.8;
+}
